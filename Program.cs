@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp22
+{
+    class Program
+    {
+        static int Area(int h, int w)
+        {
+            return h * w;
+        } 
+        static void Main(string[] args)
+        {
+            int res = Area(w: 5, h: 8);
+            Console.WriteLine(res);
+        }
+    }
+}
